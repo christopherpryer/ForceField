@@ -1,5 +1,5 @@
 # ForceField
-Earth's geostationary orbit simulator - a Qt project.
+Earth's geostationary orbit simulator.
 
 ## About
 ```ForceField``` is c++ written simulation software for analysis and prediction of objects and potential events in various levels of general Earth orbit.

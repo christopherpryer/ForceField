@@ -1,8 +1,8 @@
 # HMLOrbitSimulator
-(H)igh, (m)edium, and (l)ow earth orbit simulator - a Qt project.
+Earth orbit simulator - a Qt project.
 
 ## About
-```HMLOrbitSimulator``` is c++ written simulation software for analysis and prediction of objects and potential events in various levels of general Earth orbit.
+```OrbitSimulator``` is c++ written simulation software for analysis and prediction of objects and potential events in various levels of general Earth orbit.
 
 ## Why?
 Two-fold. One, I have been interested in designing astrophysics simulation software since I was a child. My first love was space. So this project is dedicated to a large component of what has made me the curious adult I am today. 

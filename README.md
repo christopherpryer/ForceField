@@ -1,4 +1,4 @@
-# HMLOrbitSimulator
+# OrbitSimulator
 Earth orbit simulator - a Qt project.
 
 ## About

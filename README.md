@@ -2,7 +2,7 @@
 Earth's geostationary orbit simulator.
 
 ## About
-```ForceField``` is c++ written simulation software for analysis and prediction of objects and potential events in various levels of general Earth orbit.
+```ForceField``` is a c++ simulation library for measurement and prediction of potential collisions during orbital travel with python bindings.
 
 ## Why?
 Two-fold. One, I have been interested in designing astrophysics simulation software since I was a child. My first love was space. So this project is dedicated to a large component of what has made me the curious adult I am today. 
@@ -31,3 +31,17 @@ Nasa and other entities collect data about NEO and [share it with the public](ht
 - [Nasa's Lunch Sites](https://www.nasa.gov/centers/kennedy/launchingrockets/sites.html)
 - [OpenSky Flight Data](https://examples.pyviz.org/opensky/opensky.html)
 - [OpenWeather Data](https://openweathermap.org/api)
+
+## Development
+
+- Sprint 1: Build python-extendable c++ source to handle 3-dimensional data representing points on a sphere. Build tests for interfacing and running the c++ from both python and c++.
+
+- Sprint 2: Build optimization layer for gap-space ranking & tests.
+
+- Sprint 3: GUI?
+
+# Instructions
+
+- ```mkdir build```
+- ```cmake -DBOOST_ROOT=../../../boost/boost_1_55_0/ ../src/```
+- ```cmake --build .```
